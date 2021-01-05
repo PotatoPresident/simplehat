@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "simplehat",
+  "version": "${version}",
+  "name": "Simplehat",
+  "description": "",
+  "authors": [
+    "Potatoboy9999"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "us.potatoboy.simplehat.Simplehat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": ">=1.16.4"
+  }
+}
